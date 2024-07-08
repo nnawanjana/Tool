@@ -1,0 +1,12 @@
+.main {
+	padding-top: 20px;
+}
+.login-form,
+.forgot-password-form {
+	margin: 0 auto;
+    max-width: 330px;
+}
+.bg-success,
+.bg-danger {
+	padding: 15px;
+}

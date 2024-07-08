@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cdd14dc27f281d8ccdf304ab4c903c4c",
+    "packages": [
+        {
+            "name": "zohocrm/php-sdk-6.0",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zoho/zohocrm-php-sdk-6.0.git",
+                "reference": "3c18c80d02d6763e3eff67af3ba904f30f02b6be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zoho/zohocrm-php-sdk-6.0/zipball/3c18c80d02d6763e3eff67af3ba904f30f02b6be",
+                "reference": "3c18c80d02d6763e3eff67af3ba904f30f02b6be",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=5.7"
+            },
+            "type": "sdk",
+            "autoload": {
+                "psr-4": {
+                    "": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Zoho CRM API Team",
+                    "email": "support@zohocrm.com",
+                    "homepage": "https://www.zoho.com/crm/help/customer-support.html",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Zoho CRM API SDK for PHP",
+            "homepage": "https://github.com/zoho/zohocrm-php-sdk-6.0",
+            "time": "2024-04-22T04:20:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

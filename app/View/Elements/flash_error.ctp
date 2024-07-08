@@ -1,0 +1,1 @@
+<div class="bg-danger"><?php echo $message ?></div>

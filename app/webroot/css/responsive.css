@@ -1,0 +1,135 @@
+@media (min-width: 1200px) {
+/*	.container {
+		width: 890px;
+	}*/
+}
+@media (max-width: 767px) {
+	.hidden-phone {
+		display: none;
+	}
+	.visible-phone {
+		display: block;
+	}
+	#header #logo {
+		text-align: center;
+	}
+	#header #logo img {
+		margin: auto;
+	}
+	#header #tagline {
+		float: none;
+		text-align: center;
+	}
+	#nav {
+		height: auto;
+	}
+	#nav ul {
+		padding: 0 15px 0 0;
+	}
+	#nav ul li {
+		float: none;
+	}
+	#nav ul li:first-child {
+		margin-left: 25px;
+	}
+	.step .form-section {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.step .form-section h2 {
+		margin-left: 0;
+	}
+	.form-group .col-sm-5 {
+		text-align: center;
+	}
+	.form-group .col-sm-5 .checkbox {
+		text-align: left;
+	}
+	#surname,
+	select#suburb {
+		margin-top: 15px;
+	}
+	#step1 .plan-type,
+	#step1 .customer-type {
+		float: none;
+		display: inline-block;
+	}
+	.step .radio-simulate {
+		margin: 0 auto;
+	}
+	#step1 label,
+	#step2 label {
+		margin-bottom: 10px;
+	}
+	#step1 label.col-sm-offset-1,
+	#step2 label.col-sm-offset-1 {
+		margin-left: 0;
+	}
+	#step1 .radio .radio-hidden {
+		margin-top: 0;
+	}
+	#step1 .radio .radio-hidden label {
+		margin-top: 0;
+		padding-top: 5px;
+	}
+	#step1 .radio .radio-hidden [class*='col-xs'] {
+		margin-bottom: 20px;
+	}
+	.margin-top {
+		margin-top: 0!important;
+	}
+	#step1 .has-tail {
+		margin-top: 20px;
+	}
+	#step1 .has-tail .des {
+		white-space: nowrap;
+	}
+	.btn-grey,
+	.btn-orange {
+		float: none;
+		display: block !important;
+		margin: 10px auto !important;
+	}
+	#step2 .form-group .col-sm-6 {
+		text-align: center;
+	}
+	#step2 .skip-this-step {
+		text-align: center;
+	}
+}
+@media (max-width: 480px) {
+	#header #tagline:before {
+		display: none;
+	}
+	#step1 .item {
+		 width: 100% !important;
+		 display: block;
+		 border-bottom: 1px solid #DFDFDF!important;
+		 border-right: none!important;
+	}
+	#step1 .item:first-child {
+		border-radius: 5px;
+	}
+	#step2 .btn-orange {
+		display: block;
+		margin-left: 0;
+	}
+	.pull-left,
+	.pull-right {
+		float: none !important;
+	}
+	#step2 .skip-this-step {
+		text-align: center;
+	}
+	.step .radio-simulate.style2 {
+		width: 215px;
+	}
+	.step .radio-simulate.style2 .bar {
+		left: 107px;
+		width: 108px;
+	}
+	.step .radio-simulate.style2 .choice {
+		font-size: 12px;
+		width: 106px;
+	}
+}

@@ -1,0 +1,69 @@
+/*! topbar.css */
+
+/**
+ * Topbar styles.
+ */
+
+.topbar {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FFFFFF;
+  padding: 10px 0;
+}
+
+.topbar-default {
+  background-color: #999;
+}
+
+.topbar-primary {
+  background-color: #236CB1;
+  text-align: center;
+}
+
+.topbar-success {
+  background-color: #5CB85C;
+}
+
+.topbar-info {
+  background-color: #5BC0DE;
+}
+
+.topbar-warning {
+  background-color: #F0AD4E;
+}
+
+.topbar-danger {
+  background-color: #D9534F;
+}
+
+/**
+ * Close (x) button.
+ */
+
+/*.close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+*/
+
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  -webkit-appearance: none;
+}
+
+.close {
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #FFF;
+  opacity: .2;
+  filter: alpha(opacity=20);
+}

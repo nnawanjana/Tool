@@ -1,0 +1,1 @@
+<div class="bg-success"><?php echo $message ?></div>
